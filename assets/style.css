@@ -1,0 +1,56 @@
+body {
+margin-left: 4%;
+margin-right: 4%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;
+}
+
+.panel1{
+    display: grid;
+    grid-auto-columns: repeat(2.5%);
+}
+
+.hr1 {
+    background-color: #f56a6a;
+    height: 5px;
+    border: 0;
+}
+
+.button :hover {
+    background-color: darkred;
+}
+
+.button {
+    border-color: #f56a6a;
+    padding-bottom: 11px ;
+    padding-top: 11px ;
+  background-color: white ;
+    color: #f56a6a ;
+    font-weight: bold ;
+    border-radius: 4px ;
+    font-size: 1rem ;
+    padding-left: 34px ;
+    padding-right: 34px ;
+}
+
+.title {
+    display: inline;
+}
+.socialm ul li {
+    list-style: none;
+    display: inline;
+    padding: 0px;
+    margin: 0%;
+}
+
